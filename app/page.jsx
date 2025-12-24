@@ -83,42 +83,42 @@ export default function Home() {
         <p>Over the past year and a half, I've developed some projects for university, that made me learn a lot about the basics of CS, from compilers to web servers. Below are presented these projects.</p>
         <div>
           <Image></Image> {/* get images from each project */}
-          <a href="https://github.com/ritamaria05/oscarsDatabase">Oscars Database</a> {/* try opening a new tab */}
+          <a href="https://github.com/ritamaria05/oscarsDatabase" target="_blank">Oscars Database</a> {/* try opening a new tab */}
           <p>Project made for Database course, using Python, SQL and HTML/CSS/JS, with a given dataset about the Oscars Ceremony and winners. The wesbite allows the user to find each year's winners, details about movies, about directors and actors, like how many wins and nominations they have, when and for what.</p>
         </div>
         <div>
           <Image></Image>
-          <a href="https://github.com/MaxSa2004/Chat_Server_Communication_Networks">Chat Server</a>
+          <a href="https://github.com/ritamaria05/Chat_Server_Communication_Networks" target="_blank">Chat Server</a>
           <p>Project made for Communication Networks course, in Java, that allows users to chat in chat rooms, all controlled by a server.</p>
         </div>
         <div>
           <Image></Image>
-          <a href="https://github.com/ritamaria05/Prolog_Recommendation_System">Movie Recommendation System</a>
+          <a href="https://github.com/ritamaria05/Prolog_Recommendation_System" target="_blank">Movie Recommendation System</a>
           <p>Project made for Logical Programming course, in Prolog, that allows users to register and add films to their list and from what they added and how they rated them, the system recommends them similar movies.</p>
         </div>
         <div>
           <Image></Image>
-          <a href="https://github.com/ritamaria05/ConnectedFour">Connected Four</a>
+          <a href="https://github.com/ritamaria05/ConnectedFour" target="_blank">Connected Four</a>
           <p>Project made for Artifitial Inteligence course, in Python, to play Connected Four with another Player and With AI (with MCTS or a previously trained decision tree).</p>
         </div>
         <div>
           <Image></Image>
-          <a href="https://github.com/MaxSa2004/Ada_Compiler">Ada Compiler</a>
+          <a href="https://github.com/ritamaria05/Ada_Compiler" target="_blank">Ada Compiler</a>
           <p>Project made for Compilers course, in C, with a given subset of the Ada language. It explores areas such as lexical analysis and semantics, and code generator.</p>
         </div>
         <div>
           <Image></Image>
-          <a href="https://github.com/MaxSa2004/Tab_Tech-Web-Project">Tâb</a>
+          <a href="https://github.com/ritamaria05/Tab_Tech-Web-Project" target="_blank">Tâb</a>
           <p>Project made for Tech Web course, using HTML, CSS, JavaScript and Node.js, to play a game called Tâb between to players online or with AI.</p>
         </div>
       </section>
       <section id="contacts"> {/* Contacts */}
         <h1>Contact Me</h1>
-          <a href="https://www.linkedin.com/in/rita-moreira-308056210/" className="flex items-center gap-3"><FaLinkedin></FaLinkedin>Linkedin</a>
-          <a href="https://github.com/ritamaria05" className="flex items-center gap-3"><FaGithub></FaGithub>Github</a>
-          <a href="https://discord.com/users/693081966454505473" className="flex items-center gap-3"><FaDiscord></FaDiscord>Discord</a>
-          <a href="https://www.instagram.com/_ritaa.moreiraa_/" className="flex items-center gap-3"><FaInstagram></FaInstagram>Instagram</a>
-          <a href="mailto:rita.moreira.1414@gmail.com" className="flex items-center gap-3"><MdOutlineMail></MdOutlineMail>E-mail: rita.moreira.1414@gmail.com</a>
+          <a href="https://www.linkedin.com/in/rita-moreira-308056210/" target="_blank" className="flex items-center gap-3"><FaLinkedin></FaLinkedin>Linkedin</a>
+          <a href="https://github.com/ritamaria05" target="_blank" className="flex items-center gap-3"><FaGithub></FaGithub>Github</a>
+          <a href="https://discord.com/users/693081966454505473" target="_blank" className="flex items-center gap-3"><FaDiscord></FaDiscord>Discord</a>
+          <a href="https://www.instagram.com/_ritaa.moreiraa_/" target="_blank" className="flex items-center gap-3"><FaInstagram></FaInstagram>Instagram</a>
+          <a href="mailto:rita.moreira.1414@gmail.com" target="_blank" className="flex items-center gap-3"><MdOutlineMail></MdOutlineMail>E-mail: rita.moreira.1414@gmail.com</a>
       </section>
     </main>
   );
