@@ -81,33 +81,37 @@ export default function Home() {
       <section id="projects"> {/* Projects */}
         <h1>My Projects</h1>
         <p>Over the past year and a half, I've developed some projects for university, that made me learn a lot about the basics of CS, from compilers to web servers. Below are presented these projects.</p>
-        <div>
-          <Image></Image> {/* get images from each project */}
+        <div flex items-start>
+          <Image /> {/* get images from each project */}
           <a href="https://github.com/ritamaria05/oscarsDatabase" target="_blank">Oscars Database</a> {/* try opening a new tab */}
           <p>Project made for Database course, using Python, SQL and HTML/CSS/JS, with a given dataset about the Oscars Ceremony and winners. The wesbite allows the user to find each year's winners, details about movies, about directors and actors, like how many wins and nominations they have, when and for what.</p>
         </div>
         <div>
-          <Image></Image>
+          <Image />
           <a href="https://github.com/ritamaria05/Chat_Server_Communication_Networks" target="_blank">Chat Server</a>
           <p>Project made for Communication Networks course, in Java, that allows users to chat in chat rooms, all controlled by a server.</p>
         </div>
         <div>
-          <Image></Image>
+          <Image/>
           <a href="https://github.com/ritamaria05/Prolog_Recommendation_System" target="_blank">Movie Recommendation System</a>
           <p>Project made for Logical Programming course, in Prolog, that allows users to register and add films to their list and from what they added and how they rated them, the system recommends them similar movies.</p>
         </div>
         <div>
-          <Image></Image>
+          <Image className="dark:invert"
+              src="/imgs/connectedFour.png"
+              alt="Connected Four"
+              width={16}
+              height={16}/>
           <a href="https://github.com/ritamaria05/ConnectedFour" target="_blank">Connected Four</a>
           <p>Project made for Artifitial Inteligence course, in Python, to play Connected Four with another Player and With AI (with MCTS or a previously trained decision tree).</p>
         </div>
         <div>
-          <Image></Image>
+          <Image/>
           <a href="https://github.com/ritamaria05/Ada_Compiler" target="_blank">Ada Compiler</a>
           <p>Project made for Compilers course, in C, with a given subset of the Ada language. It explores areas such as lexical analysis and semantics, and code generator.</p>
         </div>
         <div>
-          <Image></Image>
+          <Image/>
           <a href="https://github.com/ritamaria05/Tab_Tech-Web-Project" target="_blank">Tâb</a>
           <p>Project made for Tech Web course, using HTML, CSS, JavaScript and Node.js, to play a game called Tâb between to players online or with AI.</p>
         </div>
